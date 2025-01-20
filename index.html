@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predict Gender By Name</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+        <button><a href="/" aria-current="page">Home</a></button>
+        <button><a target="_blank" href="https://t.me/soul_sucker_bot">telegram</a></button>
+    </nav>
+    <div class="container">
+      <h1 class="app-title">Predict Gender By Name</h1>
+      <div class="input-wrapper">
+        <input
+          type="text"
+          value=" "
+          id="name"
+          placeholder="Enter a name.."
+        />
+        <button id="submit">Predict</button>
+      </div>
+      <div id="result">
+        <div id="wrapper"></div>
+        <div id="error"></div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
